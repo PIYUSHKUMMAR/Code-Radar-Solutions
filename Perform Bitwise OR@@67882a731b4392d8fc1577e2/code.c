@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main() 
 {
-    int a;
-    int b;
+    int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    int c= (a|b);
-    print("%d",c);
+    print("%d",a|b);
     return 0;
 }
