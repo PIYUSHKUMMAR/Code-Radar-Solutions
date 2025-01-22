@@ -5,7 +5,7 @@ int main()
     float b;
     scanf("%f",&a);
     scanf("%f",&b);
-    if (a>=0||b<=0){
+    if ((a>0&&b<0)||(a=0&&b=0)){
         printf("True");
     }
     else {
