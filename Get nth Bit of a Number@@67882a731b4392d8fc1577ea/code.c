@@ -5,7 +5,7 @@ int main()
     int a;
     scanf("%d",&n);
     scanf("%d",&a);
-    if (n<<(a-1)){
+    if (n<<a & 1){
         printf("1");
     }
     else {
