@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() 
 {
-    int n;
     int a;
-    scanf("%d",&n);
+    int n;
     scanf("%d",&a);
+    scanf("%d",&n);
     if (n<<a & 1){
         printf("1");
     }
