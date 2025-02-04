@@ -27,7 +27,7 @@ int main()
         printf("Sunday");
         break;
         default:
-        printf("my c programming teacher is good");
+        printf("Invalid");
         break;
     }
     return 0;
