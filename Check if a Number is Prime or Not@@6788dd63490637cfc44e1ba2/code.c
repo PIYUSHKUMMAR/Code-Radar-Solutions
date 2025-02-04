@@ -5,7 +5,7 @@ int main()
     int b=1;
     scanf("%d",&a);
     if (b<2){
-        b=0
+        b=0;
     }
     for (int i=2;i<a;i++){
         if (a%i==0){
