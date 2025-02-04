@@ -4,13 +4,16 @@ int main()
     int a;
     int b=1;
     scanf("%d",&a);
-    for (int i=1;i<a;i++){
+    if (b<2){
+        b=0
+    }
+    for (int i=2;i<a;i++){
         if (a%i==0){
-            int b=0;
+            b=0;
             break;
         }
     }
-    else if (b){
+    if (b){
         printf("Prime");
     }
     else {
