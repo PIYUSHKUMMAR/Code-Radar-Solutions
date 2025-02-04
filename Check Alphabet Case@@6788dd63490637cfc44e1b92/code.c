@@ -2,13 +2,16 @@
 #include <ctype.h>
 int main() 
 {
-    char a;
+    char az;
     scanf("%c",&a);
-    if (isupper(a)){
+    if (az>='a' & az<='z'){
         printf("Lowercase");
     }
-    else {
+    else if (az>='A' & az<='Z') {
         printf("Uppercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
