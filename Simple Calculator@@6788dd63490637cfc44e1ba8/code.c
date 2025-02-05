@@ -27,7 +27,8 @@ int main()
         }
         break;
         default :
-        return 1;
+        printf("error");
+        break;
     }
     return 0;
 }
