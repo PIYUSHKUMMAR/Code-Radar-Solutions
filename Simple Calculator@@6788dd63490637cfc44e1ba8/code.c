@@ -17,9 +17,14 @@ int main()
         d=a*b;
         printf("%d",d);
         break;
+        if (b==0){
+            printf("b cannot be zero");
+        }
+        else{
         case '/':
         d=a/b;
         printf("%d",d);
+        }
         break;
         default :
         return 1;
