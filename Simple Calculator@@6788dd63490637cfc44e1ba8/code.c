@@ -17,11 +17,11 @@ int main()
         d=a*b;
         printf("%d",d);
         break;
+        case '/':
         if (b==0){
             printf("b cannot be zero");
         }
         else{
-        case '/':
         d=a/b;
         printf("%d",d);
         }
