@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    char z:
+    char z;
     scanf("%c",&z);
     switch(z){
         case 'R':
