@@ -19,7 +19,7 @@ int main()
         break;
         case '/':
         if (b==0){
-            printf("b cannot be zero");
+            printf("error");
         }
         else{
         d=a/b;
