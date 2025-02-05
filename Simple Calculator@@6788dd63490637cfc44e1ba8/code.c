@@ -21,6 +21,8 @@ int main()
         d=a/b;
         printf("%d",d);
         break;
+        default :
+        return 1;
     }
     return 0;
 }
