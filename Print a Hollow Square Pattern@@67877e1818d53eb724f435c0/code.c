@@ -10,5 +10,9 @@ int main()
             }
             printf("\n");
         }
+        else if (i>1 | i<N){
+            printf("*");
+            
+        }
     }
 }
