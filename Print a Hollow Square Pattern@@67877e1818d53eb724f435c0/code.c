@@ -12,7 +12,11 @@ int main()
         }
         else if (i>1 | i<N){
             printf("*");
-            
+            for (int i=2;i<N;i++){
+                printf(" ");
+            }
+            printf("*");
         }
+        printf("\n");
     }
 }
