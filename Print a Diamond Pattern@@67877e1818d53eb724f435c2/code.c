@@ -12,5 +12,13 @@ int main()
         }
         printf("\n");
     }
+    for (int l=1;l<=N-1;l++){
+        for (int m=1;m<=l;m++){
+            printf(" ");
+        }
+        for (int n=1;n<=2*(N-1)-1;n++){
+            printf("*");
+        }
+    }
     return 0;
 }
