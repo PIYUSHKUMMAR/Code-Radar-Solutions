@@ -16,7 +16,7 @@ int main()
         for (int m=1;m<=l;m++){
             printf(" ");
         }
-        for (int n=1;n<=2*(N-1)-1;n++){
+        for (int n=1;n<=2*(N-1)-1;n+2){
             printf("*");
         }
         printf("\n");
