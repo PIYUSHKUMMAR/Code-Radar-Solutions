@@ -19,6 +19,7 @@ int main()
         for (int n=1;n<=2*(N-1)-1;n++){
             printf("*");
         }
+        printf("\n");
     }
     return 0;
 }
