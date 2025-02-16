@@ -6,7 +6,7 @@ int main()
     int mark = N & (~N+1);
     for (int i=1;i<=N;i++){
         int f=mark & i;
-        if (mark){
+        if (f){
             printf("%d",i-1);
             break;
         }
