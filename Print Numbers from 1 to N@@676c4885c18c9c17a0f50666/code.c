@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(
+int main()
     {
         int N;
         scanf("%d",&N);
@@ -8,4 +8,3 @@ int main(
         }
         return 0;
     }
-)
