@@ -8,7 +8,7 @@ int main()
         scanf("%d",&a[i]);
     }
     for (int j=0;j<N;j++){
-        int sum=0
+        int sum=0;
         for (int k=j;k<N;k++){
             if (a[j] == a[k]){
                 sum++;
