@@ -24,8 +24,10 @@ int main()
     }
     
     if (flag){
+        if (a[N-1]>a[N-2]){
         printf("%d",a[N-1]);
         h=0;
+        }
     }
     if(h){
         printf("-1");
