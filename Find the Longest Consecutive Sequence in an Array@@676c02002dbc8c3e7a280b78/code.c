@@ -8,17 +8,12 @@ int main()
         scanf("%d",&a[i]);
     }
     for (int j=0;j<N-1;j++){
-        int flag=1;
         for (int k=0;k<N-1;k++){
             if(a[k]>a[k+1]){
                 int temp = a[k];
                 a[k]=a[k+1];
                 a[k+1]=temp;
-                flag=0;
                 
-            }
-            if (flag){
-                break;
             }
         }
     }
