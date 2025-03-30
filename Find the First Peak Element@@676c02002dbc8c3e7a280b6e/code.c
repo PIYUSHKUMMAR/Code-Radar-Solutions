@@ -7,7 +7,7 @@ int main()
     for(int i=0;i<N;i++){
         scanf("%d",&a[i]);
     }
-    int flag=1
+    int flag=1;
     if (a[0]>a[1]){
         printf("%d",a[0])
     }
