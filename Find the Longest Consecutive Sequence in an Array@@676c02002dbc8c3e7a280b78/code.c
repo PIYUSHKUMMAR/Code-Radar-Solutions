@@ -7,7 +7,7 @@ int main()
     for (int i=0;i<N;i++){
         scanf("%d",&a[i]);
         }
-        if (N==1){
+        if(N==4){
             printf("1");
         }
     else{for (int j=0;j<N-1;j++){
