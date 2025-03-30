@@ -22,6 +22,12 @@ int main()
             }
         }
     }
-    
+    int y=1;
+    for (int w=0;w<N;w++){
+        if (a[w]+1==a[w+1]){
+            y++;
+        }
+    }
+    printf("%d",y);
     return 0;
 }
