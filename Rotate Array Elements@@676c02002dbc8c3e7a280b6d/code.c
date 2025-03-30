@@ -7,7 +7,7 @@ int main()
     for (int i=0;i<N;i++){
         scanf("%d",&a[i]);
     }
-    scanf("%d",&k);
+    scanf("%d",&K);
     a[N]=a[N+K];
     for (int j=N-1; j>=0; j--){
         a[j+2] =a[j];
