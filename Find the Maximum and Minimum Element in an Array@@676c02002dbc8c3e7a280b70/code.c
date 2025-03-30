@@ -9,7 +9,7 @@ int main()
     }
     for (int j=0;j<N-1;j++){
         for (int k=0;k<N-1;k++){
-            int flag = 1
+            int flag = 1;
             if (a[k]>a[k+1]){
                 int temp = a[k];
                 a[k] = a[k+1];
