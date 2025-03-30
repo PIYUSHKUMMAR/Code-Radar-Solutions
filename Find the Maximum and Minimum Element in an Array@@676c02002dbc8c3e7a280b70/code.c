@@ -14,7 +14,7 @@ int main()
                 a[k] = a[k+1];
                 a[k+1] = temp;
             }
-            printf("%d %d",a[0],a[N-1]);
+            printf("%d ",a[0]);
         }
     }
     return 0;
