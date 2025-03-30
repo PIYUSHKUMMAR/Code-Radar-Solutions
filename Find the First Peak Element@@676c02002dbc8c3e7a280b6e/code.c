@@ -9,7 +9,7 @@ int main()
     }
     int flag=1;
     if (a[0]>a[1]){
-        printf("%d",a[0])
+        printf("%d",a[0]);
     }
     else{
     for(int j=0;j<N-1;j++){
