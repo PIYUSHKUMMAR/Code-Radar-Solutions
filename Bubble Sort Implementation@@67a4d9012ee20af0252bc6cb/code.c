@@ -6,7 +6,7 @@ int bubbleSort(int arr[], int n){
                 int temp = arr[k];
                 arr[k+1] = arr[k];
                 arr[k] = temp;
-                flag = 0
+                flag = 0;
             }
             if (flag){
                 break;
