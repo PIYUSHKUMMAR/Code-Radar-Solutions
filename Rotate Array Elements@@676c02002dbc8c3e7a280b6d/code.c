@@ -8,7 +8,7 @@ int main()
         scanf("%d",&a[i]);
     }
     for (int j=N-1; j>=0; j--){
-        a[j] =a[j+2];
+        a[j+2] =a[j];
     }
     for (int p=0;p<K;p++){
         a[p] = a[N+p];
