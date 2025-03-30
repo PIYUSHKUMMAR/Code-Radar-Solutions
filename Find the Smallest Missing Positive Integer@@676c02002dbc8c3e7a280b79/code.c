@@ -26,7 +26,7 @@ int main()
         }
     }
     if (flag){
-        printf("%d",a[n-1]+1);
+        printf("%d",a[N-1]+1);
     }
     return 0;
 }
