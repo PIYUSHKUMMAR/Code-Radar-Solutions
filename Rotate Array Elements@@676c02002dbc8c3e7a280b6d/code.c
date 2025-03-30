@@ -10,7 +10,7 @@ int main()
     scanf("%d",&K);
     a[N]=a[N+K];
     for (int j=N-1; j>=0; j--){
-        a[j+2] =a[j];
+        a[j+K] =a[j];
     }
     for (int p=0;p<K;p++){
         a[p] = a[N+p];
