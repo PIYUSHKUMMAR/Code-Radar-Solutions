@@ -1,18 +1,14 @@
 int bubbleSort(int arr[], int n){
     for (int j=0;j<n-1;j++){
-        int flag = 1;
         for (int k=0;k<n-1;k++){
             if ( arr[k] > arr[k+1] ){
                 int temp = arr[k];
                 arr[k] = arr[k+1];
                 arr[k+1] = temp;
-                flag = 0;
             }
-            if (flag){
-                break;
             }
         }
-    }
+    
     return 0;
 }
 int printArray(int arr[], int n){
