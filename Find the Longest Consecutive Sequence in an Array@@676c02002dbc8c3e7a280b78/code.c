@@ -6,8 +6,11 @@ int main()
     int a[N];
     for (int i=0;i<N;i++){
         scanf("%d",&a[i]);
-    }
-    for (int j=0;j<N-1;j++){
+        }
+        if (N==1){
+            printf("1");
+        }
+    else{for (int j=0;j<N-1;j++){
         for (int k=0;k<N-1;k++){
             if(a[k]>a[k+1]){
                 int temp = a[k];
@@ -24,5 +27,6 @@ int main()
         }
     }
     printf("%d",y);
+    }
     return 0;
 }
