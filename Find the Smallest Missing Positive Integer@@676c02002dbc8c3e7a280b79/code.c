@@ -19,11 +19,12 @@ int main()
     }
     int flag=1;
     for (int p=0;p<N-1;p++){
+        if(a[p] > -1){
         if (a[p]+1 != a[p+1]){
             printf("%d",a[p]+1);
             flag=0;
             break;
-        }
+        }}
     }
     if (flag){
         printf("%d",a[N-1]+1);
