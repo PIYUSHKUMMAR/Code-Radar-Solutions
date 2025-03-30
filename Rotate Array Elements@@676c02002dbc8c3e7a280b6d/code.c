@@ -14,7 +14,7 @@ int main()
         a[p] = a[N+p];
     }
     for (int w=0;w<N+K;w++){
-        printf("%d\n"a[w]);
+        printf("%d\n",a[w]);
     }
     return 0;
 }
