@@ -15,10 +15,10 @@ int main()
         }
     }
     if (flag){
-        printf("Sorted");
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
     return 0;
 }
