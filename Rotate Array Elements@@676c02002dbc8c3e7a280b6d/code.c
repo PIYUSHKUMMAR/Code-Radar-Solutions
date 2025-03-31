@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotateright(int a[];int N,int K){
+void rotateright(int a[],int N,int K){
     int temp[K];
     for (int i=0;i<K;i++){
         temp[i]=temp[N-K+i];
