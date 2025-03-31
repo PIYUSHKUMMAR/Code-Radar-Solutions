@@ -17,7 +17,7 @@ int main()
     scanf("%d",&N);
     int a[N];
     for (int i=0;i<N;i++){
-        scanf("%d",&N);
+        scanf("%d",&a[i]);
     }
     scanf("%d",&K);
     rotateright(a,N,K);
